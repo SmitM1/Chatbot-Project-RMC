@@ -1,0 +1,564 @@
+Default Welcome Intent : 
+
+- Hello! 🏛 Welcome to Rajkot Municipal Corporation's chatbot. We're here to assist you with a variety of services to make your interaction with the city more convenient. Here are some of the key services we offer :
+- Property Tax
+- Profession Tax
+- Water Charge
+- Hall Booking
+- Sport Registration
+- E-Memo Payment
+- 24x7 Call Center 
+- Right To Information Act
+- Shop And Establishment
+- Rajkot Rajpath LTD.
+- Vehicle Tax
+- Promotion Project's
+- Town Plan
+- AVAS Yojna
+
+
+
+
+Default Fallback Intent : 
+- I Didn't Understand ! Please talk about these topics:
+- Property Tax
+- Profession Tax
+- Water Charge
+- Hall Booking
+- Sport Registration
+- E-Memo Payment
+- 24x7 Call Center 
+- Right To Information Act
+- Shop And Establishment
+- Rajkot Rajpath LTD.
+- Vehicle Tax
+- Promotion Project's
+- Town Plan
+- AVAS Yojna
+
+
+
+
+Intent = Property Tax
+
+Response = Feel free to ask any specific questions about these services :  
+
+
+		- Property Tax Payment
+		- Property Tax View
+		- Property Tax Bills / Receipt
+		- Handicapped - Property Registration
+
+
+
+
+Intent = Profession Tax
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Profession Tax Payment (EC)
+	- Profession Tax Payment (RC)
+	- Profession Tax Payment History
+
+
+
+
+Intent = Water Charge
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Water Charges Payment
+	- Water Charges View
+	- Water Bills / Receipt (2005 onwards)
+
+
+
+Intent = Hall Booking
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Hall Booking
+	- Hall Booking Receipt
+
+
+Intent = Sport Registration
+
+Response =   https://www.rmc.gov.in/SportsRegistration
+
+
+
+
+Intent = E-Memo Payment
+
+Response = https://www.rmc.gov.in/EMemoPayment
+
+
+
+Intent = 24x7 Call Center
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Complaint Registration
+	- Complaint Status 
+
+
+
+
+
+Intent = Right To Information Act
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- R.T.I. Application Status
+	- R.T.I. Proactive Disclosure
+
+
+
+
+Intent = Shop And Establishment
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Form A
+	- Form D
+	- Instruction
+	- New Shop Registration
+	- Updation Of Shop Registration Certificate (Form - G)
+	-Shop Registration Cancel
+
+
+
+
+
+Intent = Rajkot Rajpath LTD.
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Bus Pass Registration
+	- Bus Pass Receipt
+
+
+
+
+
+Intent = Vehicle Tax
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Vehicle Tax Registration By Dealer
+	- Vehicle Tax Registration By Customer
+	- Vehicle Tax Payment By Customer
+
+
+
+
+
+Intent = Promotion Project's
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Cycle Promotion Project
+	- E-Bike Promotion Project
+	- Get Duplicate Form
+	- Update Cycle Form
+
+
+
+
+
+
+Intent = Town Plan
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Town Plan Portal
+	- License Flow
+
+
+
+
+
+
+
+Intent = AVAS Yojna
+
+Response = Feel free to ask any specific questions about these services :  
+
+	- Application Form
+	- Installment Payment
+	- Payment History
+
+
+
+
+
+****************************************SUB TOPICS INTENTS ***************************************************
+
+
+
+Intent = Property Tax Payment
+
+Response = https://www.rmcegov.gov.in/payonline/
+
+
+
+
+
+Intent = Property Tax View
+
+Response =  ########################		TABLE    	 #####################
+
+
+
+
+
+Intent = Property Tax Bills / Receipt
+
+Response =  ########################		https://www.rmc.gov.in/TaxBill	###################
+
+
+
+
+
+
+Intent = Handicapped - Property Registration
+
+Response = #####################		https://www.rmc.gov.in/PropertyReg    (ask user for his preference to register at website or chatbot)      ###########################
+
+
+
+Intent = Profession Tax Payment (EC)
+
+Response = https://www.rmcegov.gov.in/payonline/proftax.php
+
+
+
+
+
+Intent = Profession Tax Payment (RC)
+
+Response = https://www.rmc.gov.in/ProfessionTaxRCPayment
+
+
+
+
+
+
+Intent = Profession Tax Payment History
+
+Response = ###############################      https://www.rmc.gov.in/ProfessionalTaxHistory        #####################
+
+
+
+
+
+
+
+
+
+
+
+Intent = Water Charges Payment
+
+Response = https://www.rmcegov.gov.in/payonline/watertax.php
+
+
+
+
+
+Intent = Water Charges View
+
+Response = #####################################		TABLE 			##############################
+
+
+
+
+
+Intent = Water Bills / Receipt (2005 onwards)
+
+Response = ###############################		https://www.rmc.gov.in/WaterTaxBillReceipt			##################################
+
+
+
+
+
+
+
+Intent = Hall Booking
+
+Response = https://www.rmc.gov.in/HallBooking
+
+
+
+
+Intent = Hall Booking Receipt
+
+Response = #############################			https://www.rmc.gov.in/HallBookingReceipt			####################################
+
+
+
+
+
+Intent = Complaint Registration
+
+Response = #################	https://www.rmc.gov.in/ComplaintRegistration	(TABLE	POSSIBLE ?) KAVAN      ##################################
+
+
+
+
+
+
+Intent = Complaint Status
+
+Response = ####################		TABLE	#########################
+
+
+
+
+Intent = R.T.I. Application Status
+
+Response = ##########################		TABLE				####################333
+
+
+
+
+
+Intent = R.T.I. Proactive Disclosure
+
+Response = https://www.rmc.gov.in/RTI
+
+
+
+
+
+
+
+Intent = Form A
+
+Response = https://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-A.pdf
+
+
+
+
+
+
+
+
+Intent = Form D
+
+Response = https://www.rmc.gov.in/rmcwebsite/docs/shop_esta/Form-D.pdf
+
+
+
+
+
+
+
+Intent = Instruction
+
+Response = https://www.rmc.gov.in/rmcwebsite/docs/shop_esta/instruction.pdf
+
+
+
+
+
+
+
+Intent = New Shop Registration
+
+Response = https://www.rmc.gov.in/ShopRegistration
+
+
+
+
+
+
+
+Intent = Updation Of Shop Registration Certificate (Form - G)
+
+Response = https://www.rmc.gov.in/UpdationofShopRegistration
+
+
+
+
+
+
+
+Intent = Cancel Shop Registration
+
+Response = https://www.rmc.gov.in/ShopRegistrationCancel
+
+
+
+
+
+
+
+Intent = Bus Pass Registration
+
+Response = https://www.rmc.gov.in/RRLRegistration
+
+
+
+
+
+
+
+
+
+
+Intent = Bus Pass Receipt
+
+Response = https://www.rmc.gov.in/ReprintRRLReceipt
+
+
+
+
+
+
+
+Intent = Vehicle Tax Registration By Dealer
+
+Response = https://www.rmc.gov.in/VTHome
+
+
+
+
+
+
+Intent = Vehicle Tax Registration By Customer
+
+Response = https://www.rmc.gov.in/VehicleTax
+
+
+
+
+
+
+
+Intent = Vehicle Tax Payment By Customer
+
+Response = https://www.rmc.gov.in/VTIndividualPayment
+
+
+
+
+
+
+
+Intent = Cycle Promotion Project
+
+Response = https://www.rmc.gov.in/BicycleForm
+
+
+
+
+
+
+Intent = E-Bike Promotion Project
+
+Response = https://www.rmc.gov.in/EBikeForm
+
+
+
+
+
+
+
+
+
+
+Intent = Get Duplicate Form
+
+Response = https://www.rmc.gov.in/ReprintPromotionForm
+
+
+
+
+
+
+
+
+
+
+
+Intent = Update Cycle Form
+
+Response = https://www.rmc.gov.in/BicycleFormUpdation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intent = Town Plan Portal
+
+Response = http://117.240.113.214/rmclive/Login
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intent = License Flow
+
+Response = https://www.rmc.gov.in/rmcwebsite/docs/TownPlan/License_Flow.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+Intent = Application Form
+
+Response = https://www.rmc.gov.in/AvasYojnaInstruction
+
+
+
+
+
+
+
+
+
+
+
+Intent = Installment Payment
+
+Response = https://www.rmc.gov.in/AvasInstallmentPayment
+
+
+
+
+
+
+
+
+
+
+
+Intent = Payment History
+
+Response = #####################		TABLE		##########################
