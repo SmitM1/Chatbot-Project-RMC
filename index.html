@@ -3,30 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot by Dhruv</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatbot for Rajkot Muncipal Corporation</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-        <div class="text">
-            <h1>Chatbot For RMC</h1>
-            
-        </div> 
-
-        <div class="input">
-            <input type="text" class="chat-input" placeholder="Send message here..." value=""/>
-            
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
-                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
-            </svg>
-
-        </div>
-    </div>
+  <div class="background">
+    <div class="blurred-background"></div>
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
-  intent="WELCOME"
-  chat-title="RMC_Chatbot"
-  agent-id="c7e31532-a458-4807-b90b-ac751085698f"
-  language-code="en"
-></df-messenger>
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;openclipart.org&#x2F;image&#x2F;2000px&#x2F;307415"
+      intent="WELCOME"
+      chat-title="RMC_Assist"
+      agent-id="c7e31532-a458-4807-b90b-ac751085698f"
+      language-code="en"
+    ></df-messenger>
+    
+  </div>
+
+
 </body>
 </html>
