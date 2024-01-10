@@ -1,5 +1,6 @@
 * {
     /* background-color: black; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 html{
@@ -19,11 +20,11 @@ iframe{
     margin-top:4%;
     translate: (-50, -50);
 }
-.background{background-image: url(images/Banner-Rajkot.jpg); height: 100%; background-position: center; background-size:cover;}
+.background{background-image: url(images/rmc-bg.png); height: 100%; background-size:cover;}
 
 .blurred-background{
-    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
-    background-color: rgba(0, 0, 0, 0.3);
+    /* backdrop-filter: blur(2px); */
+    /* background-color: rgba(0, 0, 0, 0.3); */
     position: absolute;
     top: 0;
     right: 0;
@@ -33,8 +34,16 @@ iframe{
 
 df-messenger{
     --df-messenger-button-titlebar-color: #2c0a5c;
-    --df-messenger-chat-background-color: #FFFFFA;
+    --df-messenger-chat-background-color: #dfdfcd; /*chat background entire*/
     --df-messenger-user-message: #e1d8ed;
     --df-messenger-send-icon: #2c0a5c;
     /* --df-messenger-font-color: white; */
+}
+#messageList .message.bot-message {
+    align-self: flex-start;
+    background-color: #E1F5FE;
+    background-color: var(--df-messenger-bot-message);
+    margin-right: 75px;
+    line-height: 1.4;
+    font-family: verdana !important;
 }
